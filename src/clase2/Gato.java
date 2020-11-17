@@ -4,11 +4,11 @@ public class Gato {
     /* Porpiedades o Caracteristicas*/
     private String nombre;
     private final String raza;
-    private String tipoPelaje;
+    private final String tipoPelaje;
     private byte edad;
     private int peso;
-    private int promedioVida;
-    private boolean tieneCola;
+    private final int promedioVida;
+    private final boolean tieneCola;
 
     /* Metodo constuctor*/
     public Gato(String nombre, String raza, int peso, int promedioVida) {
@@ -57,6 +57,7 @@ public class Gato {
             System.out.println("No le puedes cambiar el nombre");
         }
     }
+
 
     public void setEdad(int tiempo){
         this.edad += tiempo;

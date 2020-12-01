@@ -15,17 +15,20 @@ public class Main {
         }
         System.out.println(jada.getEmail());
 */
-        /*
+
         Admin root = new Admin(1, "marco", "avila", "asd", "1234");
         root.bannearUser(26, BadModals.GRAVE);
         root.permaBan(3);
-*/
+
         //Enums
+        /*
         Meses primero = Meses.ENERO;
         //System.out.println(primero.toString().toLowerCase());
         //int a = primero.getNumero();
         String mes = JOptionPane.showInputDialog("ingrese mes");
         Meses w = Enum.valueOf( Meses.class, mes.toUpperCase());
         System.out.println(w);
+        */
+
     }
 }
